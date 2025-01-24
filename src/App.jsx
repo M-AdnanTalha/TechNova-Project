@@ -1,11 +1,14 @@
 import './App.css'
+import Layout from './Layouts/Layout'
 import Home from './Pages/Home'
 
 function App() {
   return (
-    <>
-      <Home/>
-    </>
+    <div>
+      <Layout>
+        <Home/>
+      </Layout>
+    </div>
   )
 }
 

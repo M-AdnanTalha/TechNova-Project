@@ -8,7 +8,7 @@ function Home(){
 
                 <div className='w-4/6 ml-4 text-center md:w-2/6 md:text-left'>
 
-                    <div className='flex justify-center text-5xl md:justify-normal'>
+                    <div className='flex justify-center text-6xl md:justify-normal'>
                         <h1 className='pb-5 font-bold text-transparent bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text'>
                         Where Ideas Evolve into Tech Innovations
                         </h1>
