@@ -16,10 +16,10 @@ function Home(){
                     </div>
 
                     <p className='text-lg text-indigo-800 pb-5'>
-                        TechNova is one of the largest Tech Service provider in the world
+                    We blend creativity and technology to deliver tailored solutions that drive growth, enhance efficiency, and turn your vision into reality
                     </p>
 
-                    <button className='px-4 py-2 text-purple-300 bg-gradient-to-r from-blue-800 to-purple-800  hover:from-blue-500 to-purple-500  rounded'>
+                    <button className='px-4 py-2 text-purple-300 bg-gradient-to-r from-blue-800 to-purple-800  hover:from-blue-500 hover:to-purple-500  rounded'>
                         Learn More...
                     </button>
                 </div>
@@ -28,8 +28,8 @@ function Home(){
                     <img 
                         src={heroImage}
                         alt="BGImage"
-                        width={950}
-                        height={950}
+                        width={1000}
+                        height={1000}
                     />
                 </div>
             </section>

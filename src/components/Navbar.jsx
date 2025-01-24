@@ -7,7 +7,7 @@ function Navbar(){
                 <div className="flex items-center justify-evenly">
 
                     <div className="justify-center item-center  h-16 w-16 md:hidden ">
-                        <img src={TechNovalogo} className='rounded-full'/>
+                        <Link to="/"><img src={TechNovalogo} className='rounded-full'/></Link>
                     </div>
 
                     <div className="hidden md:block">
