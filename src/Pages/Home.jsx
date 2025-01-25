@@ -1,6 +1,7 @@
 import heroImage from '../assets/Images/bgImage.png'
 import belowHero from '../assets/Images/belowHero.png'
 import Layout from '../Layouts/Layout'
+import { Link } from 'react-router-dom'
 
 function Home(){
     return(
@@ -19,9 +20,11 @@ function Home(){
                     We blend creativity and technology to deliver tailored solutions that drive growth, enhance efficiency, and turn your vision into reality
                     </p>
 
-                    <button className='px-4 py-2 text-purple-300 bg-gradient-to-r from-blue-800 to-purple-800  hover:from-blue-500 hover:to-purple-500  rounded'>
-                        Learn More...
-                    </button>
+                    <Link to="/Services">
+                        <button className='px-4 py-2 text-purple-300 bg-gradient-to-r from-blue-800 to-purple-800  hover:from-blue-500 hover:to-purple-500  rounded'>
+                            Learn More...
+                        </button>
+                    </Link>
                 </div>
 
                 <div>
