@@ -41,6 +41,7 @@ function Services(){
                     <section className="flex flex-col items-center justify-center py-5 md:flex-row md-gap-7 bg-gradient-to-r from-blue-400 to-purple-400 md:justify-normal">
                         <div className="md:pl-12">
                             <img src={cloud}
+                                alt="Cloud Services"
                                 width={350}
                                 height={100}
                             />
@@ -64,6 +65,7 @@ function Services(){
                     <section className="pt-12 flex flex-col items-center justify-center py-5 md:flex-row md-gap-7 bg-gradient-to-r from-blue-400 to-purple-400 md:justify-normal">
                         <div className="md:pl-12">
                             <img src={AIML}
+                                alt="AI/ML Illustration"
                                 width={350}
                                 height={100}
                             />
@@ -86,6 +88,7 @@ function Services(){
                     <section className="pt-12 flex flex-col items-center justify-center py-5 md:flex-row md-gap-7 bg-gradient-to-r from-blue-400 to-purple-400 md:justify-normal">
                         <div className="md:pl-12">
                             <img src={web}
+                                alt="Web Services Illustration"
                                 width={350}
                                 height={100}
                             />

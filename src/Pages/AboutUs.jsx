@@ -32,8 +32,10 @@ function AboutUs() {
         <section className="flex flex-col items-center justify-center py-5 md:flex-row md-gap-7 bg-gradient-to-r from-blue-400 to-purple-400 md:justify-normal">
             <div className="md:pl-12">
                 <img src={bossImg}
+                    alt="Our Founder"
                     width={350}
                     height={100}
+                    className="rounded-full"
                 />
             </div>
 
@@ -54,8 +56,10 @@ function AboutUs() {
         <section className="pt-12 flex flex-col items-center justify-center py-5 md:flex-row md-gap-7 bg-gradient-to-r from-blue-400 to-purple-400 md:justify-normal">
             <div className="md:pl-12">
                 <img src={hod}
+                    alt="Head Of Management"
                     width={350}
                     height={100}
+                    className="rounded-full"
                 />
             </div>
 
@@ -76,8 +80,10 @@ function AboutUs() {
         <section className="pt-12 flex flex-col items-center justify-center py-5 md:flex-row md-gap-7 bg-gradient-to-r from-blue-400 to-purple-400 md:justify-normal">
             <div className="md:pl-12">
                 <img src={techLead}
+                    alt="Tech Lead"
                     width={350}
                     height={100}
+                    className="rounded-full"
                 />
             </div>
 
